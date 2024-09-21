@@ -5,7 +5,7 @@ import React from "react";
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";
-import Logo from "../../assets/website/Logo.png";
+// import Logo from "../../assets/website/Logo.png";
 
 const MenuLinks = [
   {
@@ -54,7 +54,7 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="container flex justify-between items-center">
           {/* Logo and Links sec */}
           <div className="flex items-center gap-4">
-            <img src={Logo} alt="" className="w-7 cursor-pointer" />
+            {/* <img src={Logo} alt="" className="w-7 cursor-pointer" /> */}
             <a
               href="#"
               className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl"
