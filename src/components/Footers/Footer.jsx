@@ -7,7 +7,6 @@ import {
   FaLinkedin,
   FaLocationArrow,
 } from "react-icons/fa6";
-import Logo from "../../assets/website/Logo.png";
 
 const FooterLinks = [
   {
@@ -36,7 +35,6 @@ const Footer = () => {
           {/* company details */}
           <div className="py-8 px-4">
             <div className="flex gap-4">
-              <img src={Logo} alt="" className="w-10 cursor-pointer" />
               <a
                 href="#"
                 className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl"
